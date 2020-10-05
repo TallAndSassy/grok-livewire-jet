@@ -133,17 +133,17 @@ class GrokLivewireJetServiceProvider extends ServiceProvider
 
         // TODO: Add your own global routes here...
 
-        \Livewire::component('tassygroklivewirejet::a-a-nothing',               \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\AANothing::class);
-        \Livewire::component('tassygroklivewirejet::a-b-almost-nothing',        \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\ABAlmostNothing::class);
-        \Livewire::component('tassygroklivewirejet::a-c-nothing-but-formatted', \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\ACNothingButFormatted::class);
-        \Livewire::component('tassygroklivewirejet::b-a-button',                \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BAButton::class);
-        \Livewire::component('tassygroklivewirejet::b-b-button-count',          \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BBButtonCount::class);
-        \Livewire::component('tassygroklivewirejet::b-c-button-modal',          \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BCButtonModal::class);
-        \Livewire::component('tassygroklivewirejet::b-d-button-modal-dialog',   \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BDButtonModalDialog::class);
-        \Livewire::component('tassygroklivewirejet::b-e-button-poll-reset',     \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BEButtonPollReset::class);
-        \Livewire::component('tassygroklivewirejet::b-f-button-modal-wire',     \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BFButtonModalWire::class);
-        \Livewire::component('tassygroklivewirejet::b-f-button-modal-wire-form',\TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BFButtonModalWireForm::class);
-        \Livewire::component('tassygroklivewirejet::c-a-input',                 \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\CAInput::class);
+        \Livewire\Livewire::component('tassygroklivewirejet::a-a-nothing',               \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\AANothing::class);
+        \Livewire\Livewire::component('tassygroklivewirejet::a-b-almost-nothing',        \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\ABAlmostNothing::class);
+        \Livewire\Livewire::component('tassygroklivewirejet::a-c-nothing-but-formatted', \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\ACNothingButFormatted::class);
+        \Livewire\Livewire::component('tassygroklivewirejet::b-a-button',                \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BAButton::class);
+        \Livewire\Livewire::component('tassygroklivewirejet::b-b-button-count',          \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BBButtonCount::class);
+        \Livewire\Livewire::component('tassygroklivewirejet::b-c-button-modal',          \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BCButtonModal::class);
+        \Livewire\Livewire::component('tassygroklivewirejet::b-d-button-modal-dialog',   \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BDButtonModalDialog::class);
+        \Livewire\Livewire::component('tassygroklivewirejet::b-e-button-poll-reset',     \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BEButtonPollReset::class);
+        \Livewire\Livewire::component('tassygroklivewirejet::b-f-button-modal-wire',     \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BFButtonModalWire::class);
+        \Livewire\Livewire::component('tassygroklivewirejet::b-f-button-modal-wire-form',\TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BFButtonModalWireForm::class);
+        \Livewire\Livewire::component('tassygroklivewirejet::c-a-input',                 \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\CAInput::class);
 
 
 
