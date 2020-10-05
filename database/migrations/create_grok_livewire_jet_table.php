@@ -4,11 +4,11 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateSkeletonTable extends Migration
+class CreateGrokLivewireJetTable extends Migration
 {
     public function up()
     {
-        Schema::create('skeleton', function (Blueprint $table) {
+        Schema::create('grok-livewire-jet', function (Blueprint $table) {
             $table->bigIncrements('id');
 
             // add fields

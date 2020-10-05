@@ -1,1 +1,1 @@
-Hello Skeleton from blade in Spatie/Skeleton/groks/sample_blade
+Hello GrokLivewireJet from blade in TallAndSassy/GrokLivewireJet/groks/sample_blade
