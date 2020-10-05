@@ -39,7 +39,7 @@ class GrokLivewireJetServiceProvider extends ServiceProvider
                 );
             }
 
-             $this->publishes([
+            $this->publishes([
                  __DIR__.'/../resources/public' => public_path('eleganttechnologies/grok'),
                 ], ['public']);
 
@@ -142,7 +142,7 @@ class GrokLivewireJetServiceProvider extends ServiceProvider
         \Livewire\Livewire::component('tassygroklivewirejet::b-d-button-modal-dialog',   \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BDButtonModalDialog::class);
         \Livewire\Livewire::component('tassygroklivewirejet::b-e-button-poll-reset',     \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BEButtonPollReset::class);
         \Livewire\Livewire::component('tassygroklivewirejet::b-f-button-modal-wire',     \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BFButtonModalWire::class);
-        \Livewire\Livewire::component('tassygroklivewirejet::b-f-button-modal-wire-form',\TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BFButtonModalWireForm::class);
+        \Livewire\Livewire::component('tassygroklivewirejet::b-f-button-modal-wire-form', \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BFButtonModalWireForm::class);
         \Livewire\Livewire::component('tassygroklivewirejet::c-a-input',                 \TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\CAInput::class);
 
 
