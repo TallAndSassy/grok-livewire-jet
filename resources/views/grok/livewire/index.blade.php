@@ -67,10 +67,18 @@
                             @livewire('tassygroklivewirejet::b-b-button-count')
                             <x-jet-section-border/>
                             @livewire('tassygroklivewirejet::b-c-button-modal')
+
                             <x-jet-section-border/>
                             @livewire('tassygroklivewirejet::b-d-button-modal-dialog')
                             <x-jet-section-border/>
                             @livewire('tassygroklivewirejet::b-e-button-poll-reset')
+                            <hr>
+                            Now, via tagging method (see the source)
+                            <livewire:tassygroklivewirejet::b-e-button-poll-reset/>
+
+
+{{--                            Now, with classes instead of strings (which doesn't work for packages)--}}
+{{--                            @livewire(\TallAndSassy\GrokLivewireJet\Components\DemoUiChunks\BEButtonPollReset::class)--}}
                             <x-jet-section-border/>
                             @livewire('tassygroklivewirejet::b-f-button-modal-wire')
                             <x-jet-section-border/>
