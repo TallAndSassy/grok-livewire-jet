@@ -152,6 +152,10 @@ class GrokLivewireJetServiceProvider extends ServiceProvider
             \ElegantTechnologies\Grok\GrokWrangler::grokMe(static::class, 'TallAndSassy', 'grok-livewire-jet', 'resources/views/grok', 'tassygroklivewirejet');//tassygroklivewirejet gets macro'd out
             Route::get('/grok/TallAndSassy/GrokLivewireJet', fn () => view('tassygroklivewirejet::grok/index'));
         }
+        //        if (App::environment(['local', 'testing'])) {
+        //            \ElegantTechnologies\Grok\GrokWrangler::grokMe(static::class, 'TallAndSassy', 'grok-jet-ui', 'resources/views/grok', 'tassygrokjetui');
+        //            #Route::get('/grok/TallAndSassy/GrokJetUi', fn () => view('tassy::grok/index'));
+        //        }
         // TODO: Add your own other boot related stuff here...
     }
 

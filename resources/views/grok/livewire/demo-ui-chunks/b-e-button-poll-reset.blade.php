@@ -1,5 +1,7 @@
 
-<div wire:poll>
+<div wire:poll.5s>
+    {{--    wire:poll.5s sez, re-render this blade once every 5 seconds (defaults to 2s)--}}
+    {{--    https://laravel-livewire.com/docs/2.x/polling --}}
     <x-jet-action-section>
 
         <x-slot name="title">
@@ -9,7 +11,7 @@
         <x-slot name="description">
             This basically shows polling where something auto-increments with a button's ability to resent the counter.
             <p>
-                Note: the <code>'div wire:poll'</code> must be outside the x-jet...
+                Note: the <code>'div wire:poll'</code> must be outside the x-jet-action-section...
             </p>
         </x-slot>
 

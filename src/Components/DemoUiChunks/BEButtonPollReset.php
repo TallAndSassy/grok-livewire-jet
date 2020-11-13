@@ -10,7 +10,7 @@ class BEButtonPollReset extends Component
 
     public function doClick()
     {
-        $this->count = 0;
+        $this->count = -10;
         #session()->flash('message', 'Counter reset');
 
         #flash('Your request was successful!')->success()->livewire($this);

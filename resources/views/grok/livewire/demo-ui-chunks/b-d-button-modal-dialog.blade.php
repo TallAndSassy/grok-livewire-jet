@@ -4,7 +4,7 @@
     </x-slot>
 
     <x-slot name="description">
-        Something modal. Like a confirmatin modal, but w/to the caution symbol
+        Something modal. Like a confirmatin modal, but w/o the caution symbol
     </x-slot>
 
     <x-slot name="content">
